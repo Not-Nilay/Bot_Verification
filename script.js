@@ -7,6 +7,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         document.getElementById('protectedContent').style.display = 'block';
         document.getElementById('loginForm').style.display = 'none';
     } else {
-        alert('Incorrect password. Please try again.');
+        alert('Incorrect Answer. Please try again.');
     }
 });
